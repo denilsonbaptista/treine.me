@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treine.me</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treine.me</title>
 
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  
-</body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <!-- 👇🏻 Semânticas - Cabeçalho -->
+      <header>
+        <!-- 👇🏻 Imagem da logo -->
+        <img src="./assets/logo.svg" alt="Treine.me" />
+
+        <!-- 👇🏻 Semânticas - Parte de navegação  -->
+        <nav>
+          <!-- 👇🏻 Os elementos de links para não deixa eles livres na tela, geralmente colocamos eles dentro de uma lista -->
+          <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Treinar</li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- 👇🏻 Semânticas - conteúdo princípal -->
+      <main>
+        <!-- 👇🏻 Semânticas - A tag "section" é usada para criar uma seção ou área de conteúdo em um documento HTML. Ela ajuda a organizar o conteúdo do documento em partes significativas e distintas. 
+        
+        lembrando que tag section não substitui uma div
+
+        Em seções normalmente é usado <h2> por uma boa prática, mas como `Treinos exclusivos para você!` é meu título princípal dentro do documento ela tem que está em <h1>
+        -->
+        <section class="text">
+          <h1>Treinos exclusivos para você!</h1>
+
+          <p>
+            Nós criamos treinos <strong>exclusivos e únicos para você.</strong><br />
+            Invista no seu corpo e <strong>tenha muito mais performance</strong> e qualidade de vida.
+          </p>
+
+          <!-- 👇🏻 Semânticas - <button> também é uma tag semântica -->
+          <button>
+            <img src="./assets/whatsapp.svg" alt="ícone do whatsapp" />
+            Comece já
+          </button>
+        </section>
+
+        <img src="./assets/fitness-jump.png" alt="Desenho de uma mulher pulando corda numa academia">
+      </main>
+
+      <!-- 👇🏻 Semânticas - ródape -->
+      <footer></footer>
+    </div>
+  </body>
 </html>
