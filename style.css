@@ -1,0 +1,29 @@
+/* 👇🏻 Tirando as margin do body */
+body {
+  margin: 0;
+}
+
+/* 👇🏻 Alinhando o page ao centro e definindo a largura */
+.page {
+  margin: 64px auto 0;
+  width: 1000px;
+}
+
+/* 👇🏻 Cabeçalho - Atribuindo o espaçamento com o display */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 58px;
+}
+
+/* 👇🏻 Este código cria um menu de navegação horizontal com uma lista de itens representados por elementos li dentro de um contêiner ul. */
+nav ul {
+  display: flex; 
+  gap: 48px;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
