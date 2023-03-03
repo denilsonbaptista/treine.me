@@ -9,8 +9,8 @@ body {
   width: 1000px;
 }
 
-/* 👇🏻 Cabeçalho - Atribuindo o espaçamento com o display */
-header {
+/* 👇🏻 Navegação - Atribuindo o espaçamento com o display */
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
