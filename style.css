@@ -47,6 +47,13 @@ ul {
   font-family: 'Mulish', sans-serif;
 }
 
+/* 👇🏻 Alinhando o container main */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* 👇🏻 Estilizando o `h1` */
 h1 {
   font-size: 49px;
@@ -64,13 +71,13 @@ h1 span {
   font-weight: bold;
 }
 
-/* 👇🏻 Estilizando a tag `p` */
-p {
+/* 👇🏻 Estilizando a tag `p` e adicionando espaçamento */
+section p {
   font-size: 14px;
   line-height: 29px;
   color: #7d7987;
 
-  width: 438px;
+  margin: 40px 0;
 }
 
 /* 👇🏻 Estilizando o button */
@@ -79,10 +86,14 @@ button {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* 👇🏻 Estilizando o footer */
+/* 👇🏻 Estilizando o footer e adicionando espalamento */
 footer {
   font-size: 14px;
   line-height: 28px;
+
+  text-align: center;
+
+  margin-top: 80px;
 }
 
 /* 👇🏻 Adicionando um bold na tag `a` dentro do footer */
