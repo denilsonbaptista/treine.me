@@ -3,12 +3,23 @@ body {
   margin: 0;
 
   font-family: 'Open Sans', sans-serif;
+
+  /* 👇🏻 O gradiente é aplicado de cima para baixo do elemento, o que significa que a cor mudará gradualmente de transparente na parte superior para uma cor verde semitransparente na parte inferior */
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  /* 👇🏻 "min-height: 100vh;" é um código CSS que define a altura mínima de um elemento como 100% da altura da viewport (vh).
+  
+  - "min-height": Esta propriedade define a altura mínima de um elemento.
+  - "100vh": Este valor define a altura mínima como 100% da altura da viewport (vh). A altura da viewport refere-se à altura da janela do navegador ou viewport e 100vh significa que o elemento ocupará a altura total da viewport.
+  */
+  min-height: 100vh;
 }
 
 /* 👇🏻 Alinhando o page ao centro e definindo a largura */
 .page {
-  margin: 64px auto 0;
   width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 /* 👇🏻 Navegação - Atribuindo o espaçamento com o display */
@@ -36,9 +47,15 @@ a {
   text-decoration: none;
 }
 
+/* 👇🏻 Adicionando opacidade no navigation */
+ul li a {
+  opacity: 0.5;
+}
+
 /* 👇🏻 Adicionando um hover, para quando eu passar o mouse em cima */
 ul li a:hover {
   font-weight: bold;
+  opacity: 1;
 }
 
 /* 👇🏻 Adicionando fonte no `h1` */
@@ -78,6 +95,7 @@ section p {
   color: #7d7987;
 
   margin: 40px 0;
+  width: 438px;
 }
 
 /* 👇🏻 Estilizando o button */
@@ -121,4 +139,11 @@ footer {
 /* 👇🏻 Adicionando um bold na tag `a` dentro do footer */
 footer a {
   font-weight: bold;
+}
+
+/* 👇🏻 Posicionando o balls */
+#balls {
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
