@@ -82,8 +82,30 @@ section p {
 
 /* 👇🏻 Estilizando o button */
 button {
+  color: #fff;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+
+  background: #69b99d;
+
+  /* 👇🏻 para remover a borda eu posso colocar `none` ou `0` */
+  border: 0;
+  border-radius: 4px;
+  padding: 14px 32px 15px;
+
+  /* 👇🏻 alinhando o conteúdo do button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  /* add cursor */
+  cursor: pointer;
+}
+
+/* 👇🏻 Quando o mouse passar em cima faz-se alguma coisa */
+button:hover {
+  background: #4ea788;
 }
 
 /* 👇🏻 Estilizando o footer e adicionando espalamento */
